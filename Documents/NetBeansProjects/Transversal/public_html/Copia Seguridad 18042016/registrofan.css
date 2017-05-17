@@ -1,0 +1,21 @@
+#banner{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+#registro1{
+    border-style:outset;
+    border-color: #0066cc;
+    border-width: 10px;
+}
+#registro2{
+    border-style:outset;
+    border-color: #ff9900;
+    border-width: 10px;
+}
+#registro3{
+    border-style:outset;
+    border-color: #339900;
+    border-width: 10px;
+}

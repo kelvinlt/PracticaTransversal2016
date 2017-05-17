@@ -1,0 +1,264 @@
+html{
+padding: 0;
+margin: 0;
+height: 100%;
+width: 100%;
+}
+
+body{ 
+padding: 0;
+margin: 0;
+height: 100%;
+width: 100%;  
+padding-bottom: 60px;
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+#banner{
+    width: 100%;
+    height: 200px;
+}
+#beat{
+    width: 100%;
+    height:199px;
+}
+
+#reglog{
+height: 20% ; 
+width: 100% ;
+
+}
+
+#register{
+    width: 370px;
+    height: 63px;
+    vertical-align: central;
+    border-style: groove;
+    border-width: 10px;
+    border-color: #0066cc;
+    margin-left: 5px;
+    background-color: #003366;
+    display: inline-block;
+}
+
+#registerbox1{
+    border-style: groove;
+    border-width: 10px;
+    border-color: #0066cc;
+    height: 42px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+#registerbox2{
+    border-style: groove;
+    border-width: 10px;
+    border-color: #0066cc;
+    height: 42px;
+    width: 100px;
+    display: inline-block;  
+    text-align: center;
+}
+#registerbox3{
+    border-style: groove;
+    border-width: 10px;
+    border-color: #0066cc;
+    height: 42px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+#logintotal{
+    width: 265px;
+    height: 63px;
+    border-style: groove;
+    border-width: 10px;
+    border-color: #0066cc; 
+    margin-left: 5px;
+    background-color: #003366;
+    display: inline-block;
+    position: relative;
+    left: 48%;
+}
+
+#login{ 
+    width: 30%;
+    height: 50px;
+    border-style: groove;
+    border-width: 10px;
+    border-color: #0066cc;
+    display:inline-block;
+    text-align: center;
+    
+}
+
+#login1{
+    border-style: groove;
+    border-width: 10px;
+    border-color: #0066cc;
+    height: 66%;
+    width: 80px;
+    display:inline-block;
+}
+
+#login2{
+    border-style: groove;
+    border-width: 10px;
+    border-color: #0066cc;
+    height: 66%;
+    width: 140px;
+    display: inline-block;
+    text-align: center; 
+}
+
+#fakeslider {
+    bottom: 8%;
+    position: relative;
+    text-align: center;
+}
+
+#fakeimg{
+    width: 50%;
+    height: 300px;
+    left: 300px;
+}
+
+#tablatabla{
+    width: 100%;
+    height: 30%;
+}
+
+#tablaconciertos{
+        display: inline-block; 
+        width: 40%;
+        height: 40%;
+}
+#conciertosabiertos{
+       display: inline-block; 
+       width: 100%;
+       height: 00%;
+}
+#conciertoscerrados{
+       display: inline-block; 
+       width: 0%;
+       height: 17%;
+       margin-left: 700px;
+}
+
+.tablas{
+    display: inline-block;
+    height: 50%;
+    left: 6%;
+    position: relative;
+    margin-right: 40px;
+}
+
+.tindex{
+    border-style: ridge;
+    border-color: grey;
+    border-width: 10px;
+    background-color: #9999ff;
+
+}
+
+.filac{
+    border-style: ridge;
+    border-color: grey;
+    border-width: 2px;
+}
+.columnac{
+    border-style: ridge;
+    border-color: grey;
+    border-width: 2px;
+    background-color: #3333ff;
+}
+
+.fila1{
+    border-style: ridge;
+    border-color: grey;
+    border-width: 2px;
+}
+.columna1{
+    border-style: ridge;
+    border-color: grey;
+    border-width: 2px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    bottom: auto;
+    height: 60px;
+    position: absolute;
+}
+
+@media screen and (max-width:500px){
+    div:nth-child(1){
+        width: 50%;
+    }
+    div:nth-child(2){
+        width: 50%;
+    }
+    div:nth-child(3){
+        width: 100%;
+    }
+    #beat{
+        width: 100%;
+    }
+    
+    #fakeimg{
+        width: 100%;
+    }
+    
+}
+
+#usu{
+    border-style: solid;
+    border-color: grey;
+    border-width: 8px;
+    background-color: #9999ff;
+}
+
+#top{
+    margin-top: 2px;
+    width: 100%;
+    height: 35%;
+    margin-left: 100px;
+}
+
+#datoslocales{
+    display:inline-block;
+    border-style: solid;
+    border-color: grey;
+    border-width: 5px;
+    background-color: #9999ff;
+    width: 40%;
+    
+}
+
+#altaconcierto{
+    display:inline-block;
+    border-style: solid;
+    border-color: grey;
+    border-width: 5px;
+    background-color: #9999ff;
+    width: 40%;
+    margin-left: 50px;
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+input {
+  display: inline-block;
+  float: left;
+}

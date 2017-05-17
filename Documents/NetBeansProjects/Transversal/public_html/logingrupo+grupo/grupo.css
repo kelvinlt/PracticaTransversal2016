@@ -1,0 +1,77 @@
+#todo{
+    width: 100%;
+    height: 100%;
+}
+
+#top{
+    width: 100%;
+    height: 35%;
+}
+#top1{
+    width: 59%;
+    display: inline-block;
+    position: relative;
+    left: 550px;
+}
+#top2{
+    width: 39%;
+    display: inline-block;
+}
+#mid{
+    width: 100%;
+    height: 30%;
+}
+#bot{
+    width: 100%;
+    height: 30%;
+}
+
+#logo{}
+
+#dlocales{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    position: relative;
+    display: inline-block;
+    height: 100%;    
+}
+
+#aconcerts{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+}
+
+#coberts{
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    position: relative;
+    width: 70%;
+    left:200px;
+    margin-top: 40px;
+}
+
+#ctancats{
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    position: relative;
+    width: 70%;
+    left:200px;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
